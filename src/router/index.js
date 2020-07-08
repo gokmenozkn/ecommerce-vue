@@ -4,7 +4,6 @@ import index from '@/components/index'
 import Login from './../components/Login.vue'
 import Register from './../components/Register.vue'
 import Cart from './../components/Cart.vue';
-import Email from './../components/Email.vue';
 
 Vue.use(Router)
 
@@ -29,11 +28,6 @@ export default new Router({
       path: '/cart',
       name: 'Cart',
       component: Cart
-    },
-    {
-      path: '/send-email',
-      name: 'Email',
-      component: Email
     },
   ],
   mode: 'history',

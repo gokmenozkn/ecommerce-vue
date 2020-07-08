@@ -1,0 +1,114 @@
+[debug] [2020-06-18T10:24:50.324Z] ----------------------------------------------------------------------
+[debug] [2020-06-18T10:24:50.326Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gorke\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-06-18T10:24:50.326Z] CLI Version:   8.2.0
+[debug] [2020-06-18T10:24:50.326Z] Platform:      win32
+[debug] [2020-06-18T10:24:50.326Z] Node Version:  v12.14.1
+[debug] [2020-06-18T10:24:50.327Z] Time:          Thu Jun 18 2020 13:24:50 GMT+0300 (GMT+03:00)
+[debug] [2020-06-18T10:24:50.327Z] ----------------------------------------------------------------------
+[debug] [2020-06-18T10:24:50.327Z] 
+[debug] [2020-06-18T10:24:50.334Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-18T10:24:50.335Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions
+[debug] [2020-06-18T10:24:52.361Z] [hub] writing locator at C:\Users\gorke\AppData\Local\Temp\hub-vue-auth-75a5b.json
+[info] +  hub: emulator hub started at http://localhost:4400
+[warn] !  Your requested "node" version "8" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Users\gorke\OneDrive\Masaüstü\Masaüstü\ecommerce-vue\functions" for Cloud Functions...
+[debug] [2020-06-18T10:24:54.384Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-06-18T10:24:54.384Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-06-18T10:24:54.384Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-06-18T10:24:54.385Z] [worker-~diagnostic~-58bb763e-e61a-4e78-9386-1237a9c36aed]: Assigning socketPath: \\?\pipe\C:\Users\gorke\OneDrive\Masaüstü\Masaüstü\ecommerce-vue\functions\2316 
+[debug] [2020-06-18T10:24:54.385Z] [worker-~diagnostic~-58bb763e-e61a-4e78-9386-1237a9c36aed]: BUSY 
+[debug] [2020-06-18T10:24:54.741Z] [runtime-status] [2316] Functions runtime initialized. {"cwd":"C:\\Users\\gorke\\OneDrive\\Masaüstü\\Masaüstü\\ecommerce-vue\\functions","node_version":"12.14.1"} 
+[debug] [2020-06-18T10:24:54.742Z] [runtime-status] [2316] Disabled runtime features: undefined 
+[debug] [2020-06-18T10:24:54.744Z] [runtime-status] [2316] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"C:\\Users\\gorke\\OneDrive\\Masaüstü\\Masaüstü\\ecommerce-vue\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-06-18T10:24:54.746Z] [runtime-status] [2316] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\gorke\\OneDrive\\Masaüstü\\Masaüstü\\ecommerce-vue\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-06-18T10:24:54.748Z] [runtime-status] [2316] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-06-18T10:24:54.807Z] [runtime-status] [2316] Checked functions.config() {"config":{}} 
+[debug] [2020-06-18T10:24:54.807Z] [runtime-status] [2316] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\gorke\\OneDrive\\Masaüstü\\Masaüstü\\ecommerce-vue\\functions","projectId":"vue-auth-75a5b","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\gorke\\OneDrive\\Masaüstü\\Masaüstü\\ecommerce-vue\\functions\\2316"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
+    at C:\Users\gorke\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\gorke\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5) 
+[warn] !  functions: Cannot set property config of #<Object> which has only a getter
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2020-06-18T10:24:54.815Z] [worker-~diagnostic~-58bb763e-e61a-4e78-9386-1237a9c36aed]: exited 
+[debug] [2020-06-18T10:24:54.820Z] [worker-~diagnostic~-58bb763e-e61a-4e78-9386-1237a9c36aed]: FINISHED 
+[debug] [2020-06-18T10:27:20.616Z] ----------------------------------------------------------------------
+[debug] [2020-06-18T10:27:20.618Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gorke\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-06-18T10:27:20.619Z] CLI Version:   8.2.0
+[debug] [2020-06-18T10:27:20.619Z] Platform:      win32
+[debug] [2020-06-18T10:27:20.619Z] Node Version:  v12.14.1
+[debug] [2020-06-18T10:27:20.620Z] Time:          Thu Jun 18 2020 13:27:20 GMT+0300 (GMT+03:00)
+[debug] [2020-06-18T10:27:20.620Z] ----------------------------------------------------------------------
+[debug] [2020-06-18T10:27:20.620Z] 
+[debug] [2020-06-18T10:27:20.626Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-18T10:27:20.627Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project vue-auth-75a5b. This may result in unexpected behavior.
+[debug] [2020-06-18T10:27:22.650Z] [hub] writing locator at C:\Users\gorke\AppData\Local\Temp\hub-vue-auth-75a5b.json
+[info] +  hub: emulator hub started at http://localhost:4400
+[warn] !  Your requested "node" version "8" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Users\gorke\OneDrive\Masaüstü\Masaüstü\ecommerce-vue\functions" for Cloud Functions...
+[debug] [2020-06-18T10:27:24.674Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-06-18T10:27:24.675Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-06-18T10:27:24.675Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-06-18T10:27:24.675Z] [worker-~diagnostic~-483e2b96-c1a2-4adb-9d3a-e1e1feab3eeb]: Assigning socketPath: \\?\pipe\C:\Users\gorke\OneDrive\Masaüstü\Masaüstü\ecommerce-vue\functions\13772 
+[debug] [2020-06-18T10:27:24.675Z] [worker-~diagnostic~-483e2b96-c1a2-4adb-9d3a-e1e1feab3eeb]: BUSY 
+[debug] [2020-06-18T10:27:25.015Z] [runtime-status] [13772] Functions runtime initialized. {"cwd":"C:\\Users\\gorke\\OneDrive\\Masaüstü\\Masaüstü\\ecommerce-vue\\functions","node_version":"12.14.1"} 
+[debug] [2020-06-18T10:27:25.016Z] [runtime-status] [13772] Disabled runtime features: undefined 
+[debug] [2020-06-18T10:27:25.019Z] [runtime-status] [13772] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"C:\\Users\\gorke\\OneDrive\\Masaüstü\\Masaüstü\\ecommerce-vue\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-06-18T10:27:25.020Z] [runtime-status] [13772] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\gorke\\OneDrive\\Masaüstü\\Masaüstü\\ecommerce-vue\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-06-18T10:27:25.022Z] [runtime-status] [13772] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-06-18T10:27:25.061Z] [runtime-status] [13772] Checked functions.config() {"config":{}} 
+[debug] [2020-06-18T10:27:25.061Z] [runtime-status] [13772] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\gorke\\OneDrive\\Masaüstü\\Masaüstü\\ecommerce-vue\\functions","projectId":"vue-auth-75a5b","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\gorke\\OneDrive\\Masaüstü\\Masaüstü\\ecommerce-vue\\functions\\13772"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
+    at C:\Users\gorke\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\gorke\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5) 
+[warn] !  functions: Cannot set property config of #<Object> which has only a getter
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2020-06-18T10:27:25.069Z] [worker-~diagnostic~-483e2b96-c1a2-4adb-9d3a-e1e1feab3eeb]: exited 
+[debug] [2020-06-18T10:27:25.070Z] [worker-~diagnostic~-483e2b96-c1a2-4adb-9d3a-e1e1feab3eeb]: FINISHED 
+[debug] [2020-06-18T10:31:17.393Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-06-18T10:31:17.393Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-06-18T10:31:17.394Z] FirebaseError: No trigger with name addMessage 
+[debug] [2020-06-18T10:31:17.394Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-06-18T10:32:47.143Z] ----------------------------------------------------------------------
+[debug] [2020-06-18T10:32:47.145Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gorke\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-06-18T10:32:47.145Z] CLI Version:   8.2.0
+[debug] [2020-06-18T10:32:47.145Z] Platform:      win32
+[debug] [2020-06-18T10:32:47.145Z] Node Version:  v12.14.1
+[debug] [2020-06-18T10:32:47.146Z] Time:          Thu Jun 18 2020 13:32:47 GMT+0300 (GMT+03:00)
+[debug] [2020-06-18T10:32:47.146Z] ----------------------------------------------------------------------
+[debug] [2020-06-18T10:32:47.146Z] 
+[debug] [2020-06-18T10:32:47.152Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-18T10:32:47.153Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project vue-auth-75a5b. This may result in unexpected behavior.
+[debug] [2020-06-18T10:32:49.178Z] [hub] writing locator at C:\Users\gorke\AppData\Local\Temp\hub-vue-auth-75a5b.json
+[info] +  hub: emulator hub started at http://localhost:4400
+[info] +  functions: Using node@12 from host.
+[info] +  functions: functions emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Users\gorke\OneDrive\Masaüstü\Masaüstü\ecommerce-vue\functions" for Cloud Functions...
+[debug] [2020-06-18T10:32:51.201Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-06-18T10:32:51.201Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-06-18T10:32:51.201Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-06-18T10:32:51.202Z] [worker-~diagnostic~-a08dd52a-9828-40b9-a335-9a6a1f97d3e0]: Assigning socketPath: \\?\pipe\C:\Users\gorke\OneDrive\Masaüstü\Masaüstü\ecommerce-vue\functions\1120 
+[debug] [2020-06-18T10:32:51.202Z] [worker-~diagnostic~-a08dd52a-9828-40b9-a335-9a6a1f97d3e0]: BUSY 
+[debug] [2020-06-18T10:32:51.542Z] [runtime-status] [1120] Functions runtime initialized. {"cwd":"C:\\Users\\gorke\\OneDrive\\Masaüstü\\Masaüstü\\ecommerce-vue\\functions","node_version":"12.14.1"} 
+[debug] [2020-06-18T10:32:51.543Z] [runtime-status] [1120] Disabled runtime features: undefined 
+[debug] [2020-06-18T10:32:51.546Z] [runtime-status] [1120] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"C:\\Users\\gorke\\OneDrive\\Masaüstü\\Masaüstü\\ecommerce-vue\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-06-18T10:32:51.547Z] [runtime-status] [1120] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\gorke\\OneDrive\\Masaüstü\\Masaüstü\\ecommerce-vue\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-06-18T10:32:51.549Z] [runtime-status] [1120] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-06-18T10:32:51.587Z] [runtime-status] [1120] Checked functions.config() {"config":{}} 
+[debug] [2020-06-18T10:32:51.588Z] [runtime-status] [1120] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\gorke\\OneDrive\\Masaüstü\\Masaüstü\\ecommerce-vue\\functions","projectId":"vue-auth-75a5b","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\gorke\\OneDrive\\Masaüstü\\Masaüstü\\ecommerce-vue\\functions\\1120"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
+    at C:\Users\gorke\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\gorke\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5) 
+[warn] !  functions: Cannot set property config of #<Object> which has only a getter
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2020-06-18T10:32:51.597Z] [worker-~diagnostic~-a08dd52a-9828-40b9-a335-9a6a1f97d3e0]: exited 
+[debug] [2020-06-18T10:32:51.597Z] [worker-~diagnostic~-a08dd52a-9828-40b9-a335-9a6a1f97d3e0]: FINISHED 
